@@ -1,6 +1,6 @@
 [user]
 	name = Irvin Capagcuan
-	email = irvin.capagcuan@bayviewtechnology.com
+	email = irvin@capagcuan.org
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
@@ -13,11 +13,11 @@
 [push]
 	default = simple
 [diff]
-	tool = meld
+	tool = vscode
 [difftool]
 	prompt = false
-[difftool "meld"]
-	cmd = meld "$LOCAL" "$REMOTE"
+[difftool "vscode"]
+	cmd = code "$LOCAL" "$REMOTE" --diff --wait
 [alias]
 	c = commit
 	ca = commit -a
