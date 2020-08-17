@@ -32,3 +32,6 @@
 	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
 [tag]
 	sort = version:refname
+[pull]
+	rebase = false
+	ff = only
