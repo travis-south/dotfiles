@@ -25,3 +25,6 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 export YVM_DIR=/usr/local/opt/yvm
 [ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
+export PHPBREW_SET_PROMPT=1
+export PHPBREW_RC_ENABLE=1
+source ~/.phpbrew/bashrc
