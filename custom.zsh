@@ -23,3 +23,5 @@ export SSH_KEY=$(cat ~/.ssh/id_rsa)
 export PUPPETEER_EXECUTABLE_PATH=/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export YVM_DIR=/usr/local/opt/yvm
+[ -r $YVM_DIR/yvm.sh ] && . $YVM_DIR/yvm.sh
