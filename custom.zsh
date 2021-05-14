@@ -28,3 +28,4 @@ export YVM_DIR=/usr/local/opt/yvm
 export PHPBREW_SET_PROMPT=1
 export PHPBREW_RC_ENABLE=1
 source ~/.phpbrew/bashrc
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"

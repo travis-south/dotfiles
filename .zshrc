@@ -102,3 +102,5 @@ if [[ -a $HOME/.custom.zsh ]]
 then
     source $HOME/.custom.zsh
 fi;
+
+[[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
