@@ -104,3 +104,6 @@ then
 fi;
 
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
+
+export PATH=/opt/homebrew/bin:$PATH
+
