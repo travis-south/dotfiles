@@ -32,6 +32,7 @@ source ~/.phpbrew/bashrc
 export KUBECONFIG=~/.kube/config-nwhtc-stack-main2-k8s-cluster
 export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="$PATH:$HOME/go/bin"
+export PATH="$PATH:/opt/homebrew/bin"
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
