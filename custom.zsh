@@ -28,6 +28,7 @@ export PHPBREW_RC_ENABLE=1
 export KUBECONFIG=~/.kube/config-nwhtc-stack-main2-k8s-cluster
 export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="$PATH:$HOME/go/bin"
+export PATH="/opt/homebrew/Cellar/ansible@8/8.6.1/bin:$PATH"
 export PATH="$PATH:/opt/homebrew/bin"
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
