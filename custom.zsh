@@ -37,3 +37,5 @@ source ~/.phpbrew/bashrc
 export PYENV_ROOT="$HOME/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"
 eval "$(pyenv init -)"
+STACK=prod
+PULUMI_SKIP_UPDATE_CHECK=true
