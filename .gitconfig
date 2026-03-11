@@ -1,6 +1,7 @@
 [user]
 	name = Irvin Capagcuan
 	email = irvin@capagcuan.org
+	signingkey = 58743624896EA751
 [core]
 	excludesfile = ~/.gitignore
 	autocrlf = input
