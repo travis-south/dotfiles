@@ -33,8 +33,11 @@
 	cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
 [tag]
 	sort = version:refname
+	gpgSign = true
 [pull]
 	rebase = false
 	ff = only
 [init]
 	defaultBranch = main
+[commit]
+	gpgsign = true
