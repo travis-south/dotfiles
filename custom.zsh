@@ -30,8 +30,6 @@ export PATH="/usr/local/opt/ansible@2.8/bin:$PATH"
 export PATH="$PATH:$HOME/go/bin"
 export PATH="/opt/homebrew/Cellar/ansible@8/8.6.1/bin:$PATH"
 export PATH="$PATH:/opt/homebrew/bin"
-export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 source ~/.phpbrew/bashrc
 [[ -s "$HOME/.gvm/scripts/gvm" ]] && source "$HOME/.gvm/scripts/gvm"
 export PYENV_ROOT="$HOME/.pyenv"
