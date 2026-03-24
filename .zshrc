@@ -112,3 +112,6 @@ export PHP_INI_SCAN_DIR="/Users/irvincapagcuan/.config/herd-lite/bin:$PHP_INI_SC
 
 # opencode
 export PATH=/Users/irvincapagcuan/.opencode/bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
